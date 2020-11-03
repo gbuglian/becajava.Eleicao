@@ -16,6 +16,7 @@ public class Candidato {
 	private Long Id;
 	private String Numero;
 	private String Nome;
+	private String Tipo;
 	
 	@ManyToOne
 	@JoinColumn(name = "MunicipioId")
@@ -51,6 +52,14 @@ public class Candidato {
 
 	public void setMunicipio(Municipio municipio) {
 		Municipio = municipio;
+	}
+
+	public String getTipo() {
+		return Tipo;
+	}
+
+	public void setTipo(String tipo) {
+		Tipo = tipo;
 	}
 	
 
