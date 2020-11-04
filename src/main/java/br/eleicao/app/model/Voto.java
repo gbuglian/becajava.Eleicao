@@ -40,16 +40,16 @@ public class Voto {
 		return eleitor;
 	}
 
-	public void setEleitor(Eleitor eleitor) {
-		eleitor = eleitor;
+	public void setEleitor(Eleitor Eleitor) {
+		Eleitor = eleitor;
 	}
 
 	public Candidato getCandidato() {
 		return candidato;
 	}
 
-	public void setCandidato(Candidato candidato) {
-		candidato = candidato;
+	public void setCandidato(Candidato Candidato) {
+		Candidato = candidato;
 	}
 
 	public Zona getZona() {
